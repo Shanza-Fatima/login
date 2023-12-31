@@ -1,0 +1,98 @@
+body{
+    background-image: url("/home/shanza/Documents/Coding/login/background img 4.jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    font-family: 'Happy Monkey', 'Varela Round';
+}
+.main{
+    text-align:center;
+    background-color: rgba(238, 226, 226, 0.37);
+    margin-top: 150px;
+    margin-left:480px;
+    margin-right:480px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 3px rgba(14, 13, 13, 0.432);
+
+}
+h1{
+    font-size:30px;
+    text-align: center;
+}
+.input-box{
+
+}
+.email{
+    line-height: 25px;
+    background-color: rgba(238, 226, 226, 0.37);
+    border-radius: 20px;
+    border:2px solid rgb(56, 53, 53);
+    width:250px;
+    font-family: inherit;
+    padding:5px;
+    outline: none;
+    color:black;
+}
+.password{
+   line-height: 25px;
+   background-color:rgba(238, 226, 226, 0.37) ;
+   border-radius: 20px;
+   margin-top:10px;
+   border:2px solid rgb(56, 53, 53);
+   width:250px;
+   font-family:inherit;
+   padding:5px;
+   outline:none;
+   color:black;
+}
+
+.btn{
+    
+}
+.login-btn{
+    font-weight: bold;
+    font-family: inherit;
+    margin-top:14px;
+    padding:10px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius:18px;
+    border : none;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}
+.signup-btn{
+   font-weight: bold;
+   font-family:inherit;
+   margin-top:14px;
+   padding:10px;
+   padding-left: 15px;
+   padding-right:15px;
+   border-radius:18px;
+   border : none;
+   cursor: pointer;
+   margin-left: 3px;
+   background-color: darkblue;
+   color: white;
+}
+.email::placeholder{
+    color:rgb(70, 64, 64);
+    font-weight:lighter
+}
+.password::placeholder{
+    color: rgb(70, 64, 64);
+}
+.btn :hover{
+    transition-duration: 0.4s;
+    background-color: black;
+    color:white;
+}
+   a {
+     color: #000;
+     display: inline-block;
+   }
